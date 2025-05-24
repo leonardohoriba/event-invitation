@@ -1,0 +1,65 @@
+.font-1 {
+    font: 1rem "Quicksand", serif !important;
+    
+}
+.font-1-p {
+    font:0.8rem 'Zen Antique', cursive;
+   
+ }
+ .font-1-m {
+    font:1rem 'Zen Antique', cursive;
+   
+ }
+
+ .font-2-l {
+    font: 0.9rem "Quicksand", serif !important;
+    letter-spacing: 0.4px;
+    
+}
+
+
+.font-2 {
+    font: 1.5rem "Playfair Display", serif !important;
+    
+}
+
+.font-2-m {
+
+    font: 0.7em "Quicksand", sans-serif !important;
+    letter-spacing: 2px !important;
+    
+  
+
+}
+.font-nome{
+    
+
+    font: 2rem "theseasons", serif !important;
+    letter-spacing: 5px;
+    line-height: 0 !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #bd8e34 !important;
+}
+
+
+
+
+
+@font-face {
+    font-family: theseasons;
+    src: url("theseasons.otf");
+}
+
+
+
+
+/* @media(min-width:355px) {
+    .font-2 {
+        font: 3.9rem "HighSpirited", sans-serif;
+        background-color: red;
+    }
+} */
+
+
+
