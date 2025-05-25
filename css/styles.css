@@ -357,7 +357,7 @@ body {
 }
 
 .close-btn {
-  position: absolute;
+  position: sticky;
   top: 16px;
   right: 24px;
   margin-right: 2px; /* Adiciona margem à direita */
