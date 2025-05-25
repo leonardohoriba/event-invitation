@@ -1,117 +1,143 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Halant:wght@300;400&amp;display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Zen+Antique&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-<meta property="og:image" content="https://event-invitation-delta-six.vercel.app/img/logo.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&amp;family=Halant:wght@300;400&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Zen+Antique&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <meta
+      property="og:image"
+      content="https://event-invitation-delta-six.vercel.app/img/logo.png"
+    />
     <title id="title">15 anos - Vitória Barcellos</title>
-</head>
+  </head>
 
-<body>
-    <div class="inicio" onclick="playaudio(),removeModal() ">
-   
+  <body>
+    <div class="inicio" onclick="playaudio(),removeModal() "></div>
+
+    <div class="container_envelope">
+      <div class="nomes_container"></div>
+      <ul>
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=5521969695147&text=Olá,+Gostaria+de+confirmar+presença+no+aniversário!"
+            target="_blank"
+          >
+            <img src="img/whats.svg" class="icons" />
+            <p class="frase font-2-m" id="event-details-text">
+              Confirmar<br />presença
+            </p>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://maps.app.goo.gl/enU5zMP8YqaiBp2n8"
+            target="_blank"
+            data-anime="1500"
+          >
+            <img src="img/locali.svg" class="icons" />
+            <p class="frase font-2-m" id="venmo-gift-text">
+              Como <br />
+              chegar
+            </p>
+          </a>
+        </li>
+        <li>
+          <a
+            href="#"
+            target="_blank"
+            data-anime="1500"
+            data-target="vestimenta"
+            class="anime"
+          >
+            <img src="img/presentes.svg" class="icons" />
+            <p class="frase font-2-m">
+              sugestões de<br />
+              presentes
+            </p>
+          </a>
+        </li>
+      </ul>
     </div>
-    
-        <div class="container_envelope">  
-            <div class="nomes_container">
-            </div>
-            <ul>
-           
-                <li>
-                    <a href="https://api.whatsapp.com/send?phone=5521969695147&text=Olá,+Gostaria+de+confirmar+presença+no+aniversário!" target="_blank">
 
-                        <img src="img/whats.svg" class="icons">
-                        <p class="frase font-2-m" id="event-details-text">
-                            Confirmar<br>presença</p> 
-                    </a>
-                </li>
-
-                <li>
-                    <a href="https://maps.app.goo.gl/enU5zMP8YqaiBp2n8" target="_blank" data-anime="1500">
-                        <img src="img/locali.svg" class="icons">
-                        <p class="frase font-2-m" id="venmo-gift-text">
-                            Como <br> chegar</p>  
-                    </a>
-                </li>
-                <li>
-                    <a href="#" target="_blank" data-anime="1500" data-target="vestimenta" class="anime">
-                        <img src="img/presentes.svg" class="icons">
-                        <p class="frase font-2-m">
-                          sugestões de<br>
-                          presentes </p>  
-                    </a>
-                </li>
-
-
-            </ul>
-            
-        </div>
-
-<div class="modal" id="modal-vestimenta" style="display:none;">
-    <div class="modal-content">
+    <div class="modal" id="modal-vestimenta" style="display: none">
+      <div class="modal-content">
         <span class="close close-btn">&times;</span>
         <h2>Lista de desejos</h2>
 
         <h3>Acessórios</h3>
         <ul>
-            <li>Bolsas (cores neutras)</li>
-            <li>Colares (pratas ou dourados)</li>
-            <li>Pulseira (dourada ou prata)</li>
-            <li>Relógio (ex: Cássio de pulso)</li>
+          <li>Bolsas (cores neutras)</li>
+          <li>Colares (pratas ou dourados)</li>
+          <li>Pulseira (dourada ou prata)</li>
+          <li>Relógio (ex: Cássio de pulso)</li>
         </ul>
 
         <h3>Cremes e perfumes</h3>
         <ul>
-            <li>Perfumes (O'Boticário ou Victoria's Secret)</li>
-            <li>Cremes (O'Boticário ou Victoria's Secret)</li>
+          <li>Perfumes (O'Boticário ou Victoria's Secret)</li>
+          <li>Cremes (O'Boticário ou Victoria's Secret)</li>
         </ul>
 
         <h3>Maquiagens</h3>
         <ul>
-            <li>Blush</li>
-            <li>Contorno</li>
-            <li>Rímel</li>
-            <li>Batom ou gloss</li>
-            <li>Lápis de boca</li>
-            <li>Paleta de sombra</li>
+          <li>Blush</li>
+          <li>Contorno</li>
+          <li>Rímel</li>
+          <li>Batom ou gloss</li>
+          <li>Lápis de boca</li>
+          <li>Paleta de sombra</li>
         </ul>
 
         <h3>Roupas</h3>
         <ul>
-            <li>Blusa (P)</li>
-            <li>Calça (36 cargo, preta ou bege)</li>
-            <li>Jaqueta (preta)</li>
-            <li>Blusa do Botafogo</li>
+          <li>Blusa (P)</li>
+          <li>Calça (36 cargo, preta ou bege)</li>
+          <li>Jaqueta (preta)</li>
+          <li>Blusa do Botafogo</li>
         </ul>
 
         <h3>Sapatos</h3>
         <ul>
-            <li>Sapato (37)</li>
-            <li>Boot (37)</li>
-            <li>All Star (preto)</li>
-            <li>Calçados (tam 33)</li>
+          <li>Sapato (37)</li>
+          <li>Boot (37)</li>
+          <li>All Star (preto)</li>
+          <li>Calçados (tam 33)</li>
         </ul>
 
-        <p class="frase" style="padding-top: 20px;">
-            Com carinho, apresento esta lista de presentes apenas como uma referência para tamanhos e preferências.<br>
-            Sintam-se à vontade para escolher o que desejar, qualquer presente será recebido com muito amor!
+        <p class="frase" style="padding-top: 20px">
+          Com carinho, apresento esta lista de presentes apenas como uma
+          referência para tamanhos e preferências.<br />
+          Sintam-se à vontade para escolher o que desejar, qualquer presente
+          será recebido com muito amor!
         </p>
+      </div>
     </div>
-</div>
 
-
-<audio src="audio/musica.mp3" id="audio" autoplay></audio>
-<script src="simple-anime.js"></script>
-<script src="script.js"></script>
-
-</body>
+    <audio src="audio/musica.mp3" id="audio" autoplay></audio>
+    <script src="simple-anime.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>

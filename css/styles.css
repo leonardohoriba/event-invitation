@@ -40,6 +40,7 @@ ul {
   opacity: 1;
   transition: 0.5s;
 }
+
 .icons {
   width: 40px;
   height: 40px;
@@ -179,6 +180,47 @@ li .frase {
   padding: 2px;
 }
 
+/* Listas do modal */
+.modal-content ul {
+  display: block;
+  position: static;
+  bottom: auto;
+  z-index: auto;
+  padding-left: 24px;
+  list-style: disc;
+  margin-bottom: 18px;
+  gap: 0;
+  text-align: left;
+}
+.modal-content li {
+  display: list-item;
+  margin-bottom: 6px;
+  font-size: 1rem;
+  color: #333;
+  letter-spacing: 1px;
+}
+
+/* Parágrafos do modal */
+.modal-content p,
+.modal-content .frase {
+  font-size: 1rem;
+  color: #fff;
+  background: #e27f90;
+  border-radius: 6px;
+  padding: 12px 16px;
+  margin-top: 18px;
+  margin-bottom: 0;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+/* Links do modal */
+.modal-content a {
+  font-size: 1rem;
+  color: #e27f90;
+  text-decoration: underline;
+}
+
 /* Estilização do botão de fechar */
 .close {
   color: #e27f90;
@@ -301,4 +343,19 @@ body {
 
 .disco {
   width: 250px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 24px;
+  margin-right: 2px; /* Adiciona margem à direita */
+  font-size: 2rem;
+  color: #e27f90;
+  cursor: pointer;
+  background: none;
+  border: none;
+  z-index: 10;
+  transition: color 0.2s;
+  font-weight: bold;
 }
