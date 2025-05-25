@@ -24,6 +24,17 @@ ul {
   padding-bottom: 20px;
 }
 
+.relative-list {
+  position: absolute;
+  bottom: 8%;  /* distância do fundo da imagem */
+  left: 50%;
+  transform: translateX(-50%); /* centraliza horizontalmente */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
 .container_envelope {
   display: flex;
   flex-direction: column;
