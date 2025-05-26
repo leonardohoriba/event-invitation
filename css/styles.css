@@ -53,11 +53,11 @@ ul {
 }
 
 .icons {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
 }
 li .frase {
-  font-size: 0.6rem !important;
+  font-size: 0.3rem !important;
   text-transform: uppercase;
 }
 
