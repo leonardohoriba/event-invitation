@@ -1,7 +1,9 @@
 function playaudio() {
   const audio = document.querySelector("#audio");
-  audio.play();
+  audio.volume = 0.75; // Define o volume para 80%
+  audio.play().catch(() => {}); // Evita erro de autoplay bloqueado
 }
+
 
 function removeModal() {
   const modal = document.querySelector(".inicio");
